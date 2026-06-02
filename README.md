@@ -1,1 +1,1 @@
-Sitema simple de gestion para un gym
+Sistema simple de gestion para un gym
