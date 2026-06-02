@@ -50,9 +50,16 @@ namespace GymApp.Controllers
                     return e;
                 }
             }
-
             Console.WriteLine("No se encontró ningún entrenador con el criterio proporcionado.");
             return null;
+        }
+
+        // busco al entrenador y le pido que muestre sus rutinas
+        public void ListarRutinas(string criterio)
+        {
+            Entrenador entrenador = Buscar(criterio);
+            if (entrenador != null)
+                entrenador.ListarRutinas();
         }
     }
 }

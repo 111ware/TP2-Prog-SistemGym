@@ -15,8 +15,6 @@ namespace GymApp.Models
         // cada entrenador tiene su propia lista de rutinas asignadas
         private List<Rutina> Routine;
 
-
-        // constructor para crear un entrenador con toda su info, inicializo la lista de rutinas vacia
         public Entrenador(int id, string name, string lastName, string dni, string phoneNumber, string specialty, string registrationNumber) : base(id, name, lastName, dni, phoneNumber)
         {
             Specialty = specialty;
@@ -28,6 +26,18 @@ namespace GymApp.Models
         public void AsignarRutina(Rutina routine)
         {
             Routine.Add(routine);
+        }
+
+        // recorro la lista y muestro cada rutina, si no hay ninguna aviso
+        public void ListarRutinas()
+        {
+            if (Routine.Count == 0)
+            {
+                Console.WriteLine("Este entrenador no tiene rutinas asignadas.");
+                return;
+            }
+            foreach (Rutina r in Routine)
+                Console.WriteLine($"[{r.Id}] {r.Name} - Objetivo: {r.Objetive}");
         }
 
         // devuelvo los datos principales del entrenador en una sola linea

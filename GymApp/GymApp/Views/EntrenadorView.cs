@@ -67,6 +67,8 @@ namespace GymApp.Views
                 Console.WriteLine("1. Agregar Entrenador");
                 Console.WriteLine("2. Listar Entrenadores");
                 Console.WriteLine("3. Buscar Entrenador");
+                Console.WriteLine("4. Asignar Rutina a Entrenador");
+                Console.WriteLine("5. Ver Rutinas de Entrenador");
                 Console.WriteLine("0. Volver al menu principal");
                 Console.Write("Seleccione una opcion: ");
 
@@ -77,7 +79,7 @@ namespace GymApp.Views
                     case "1":
                         AgregarEntrenador();
                         Console.WriteLine("\nPresione cualquier tecla para continuar...");
-                        Console.ReadKey(); // congela la pantalla para que el usuario pueda leer el mensaje antes de volver al menu
+                        Console.ReadKey();
                         break;
                     case "2":
                         controller.Listar();
@@ -86,6 +88,16 @@ namespace GymApp.Views
                         break;
                     case "3":
                         BuscarEntrenador();
+                        Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                        Console.ReadKey();
+                        break;
+                    case "4":
+                        AsignarRutina();
+                        Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                        Console.ReadKey();
+                        break;
+                    case "5":
+                        VerRutinas();
                         Console.WriteLine("\nPresione cualquier tecla para continuar...");
                         Console.ReadKey();
                         break;
@@ -123,6 +135,31 @@ namespace GymApp.Views
             Entrenador entrenador = controller.Buscar(criteria);
             if (entrenador != null)
                 Console.WriteLine(entrenador.MostrarDatos());
+        }
+
+        // busco al entrenador y le asigno una rutina nueva con los datos que ingresa el usuario
+        private void AsignarRutina()
+        {
+            Console.Write("Ingrese nombre, apellido o DNI del entrenador: ");
+            string criteria = Console.ReadLine();
+            Entrenador entrenador = controller.Buscar(criteria);
+            if (entrenador != null)
+            {
+                int id = PedirEntero("ID de la rutina: ");
+                string name = PedirTexto("Nombre de la rutina: ");
+                string objetive = PedirTexto("Objetivo de la rutina: ");
+                Rutina rutina = new Rutina(id, name, objetive);
+                entrenador.AsignarRutina(rutina);
+                Console.WriteLine("Rutina asignada correctamente.");
+            }
+        }
+
+        // busco al entrenador y muestro todas las rutinas que tiene asignadas
+        private void VerRutinas()
+        {
+            Console.Write("Ingrese nombre, apellido o DNI del entrenador: ");
+            string criteria = Console.ReadLine();
+            controller.ListarRutinas(criteria);
         }
     }
 }
