@@ -9,9 +9,9 @@ namespace GymApp.Models
     // guarda el registro de cuando un socio entra al gimnasio
     public class Asistencia
     {
-        public int Id { get; private set; }
-        public DateTime Date { get; private set; }
-        public TimeSpan CheckInTime { get; private set; }
+        public int Id { get;  set; }
+        public DateTime Date { get;  set; }
+        public TimeSpan CheckInTime { get;  set; }
 
         //Constructor que asigna el id, la fecha actual y la hora de ingreso
         public Asistencia(int id)

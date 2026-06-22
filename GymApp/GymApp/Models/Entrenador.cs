@@ -9,8 +9,8 @@ namespace GymApp.Models
     // extiende persona con los datos propios de un entrenador
     public class Entrenador : Persona
     {
-        public string Specialty { get; private set; }
-        public string RegistrationNumber { get; private set; }
+        public string Specialty { get;  set; }
+        public string RegistrationNumber { get;  set; }
 
         // cada entrenador tiene su propia lista de rutinas asignadas
         private List<Rutina> Routine;

@@ -9,11 +9,11 @@ namespace GymApp.Models
     //  maneja los datos de los socios del gym y sus asistencias
     public class Socio : Persona, IPagable
     {
-        public DateTime RegistrationDate { get; private set; }
+        public DateTime RegistrationDate { get;  set; }
 
-        public bool Status { get; private set; }
+        public bool Status { get;  set; }
 
-        public Membresia Membresia { get; private set; }
+        public Membresia Membresia { get;  set; }
 
         private List<Asistencia> Attendance;
 

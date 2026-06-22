@@ -9,11 +9,11 @@ namespace GymApp.Models
     // representa un ejercicio individual dentro de una rutina
     public class Ejercicio
     {
-        public int Id { get; private set; }
-        public string Name { get; private set; }
-        public int Sets { get; private set; }
-        public int Reps { get; private set; }
-        public int RestTimeSeconds { get; private set; }
+        public int Id { get;  set; }
+        public string Name { get;  set; }
+        public int Sets { get;  set; }
+        public int Reps { get;  set; }
+        public int RestTimeSeconds { get;  set; }
 
         //Constructor para crear un ejercicio con toda su info
         public Ejercicio(int id, string name, int sets, int reps, int restTimeSeconds)

@@ -10,10 +10,10 @@ namespace GymApp.Views
     {
         private MembresiaController controller;
 
-        // levanto la view y preparo el controlador para empezar a manejar las membresias y mostrar los menus
-        public MembresiaView()
+        // levanto la view, recibo el repository y se lo paso al controlador
+        public MembresiaView(IRepository<Membresia> repo)
         {
-            controller = new MembresiaController();
+            controller = new MembresiaController(repo);
         }
 
         // control para que lo que pongan sea un numero entero para evitar romper el programa
@@ -29,7 +29,7 @@ namespace GymApp.Views
             }
         }
 
-        //  control para pedir los precios de las cuotas con coma o decimales
+        // control para pedir los precios de las cuotas con coma o decimales
         private decimal PedirDecimal(string mensaje)
         {
             decimal resultado;
@@ -156,7 +156,7 @@ namespace GymApp.Views
             controller.RegistrarPago(criteria, amount);
         }
 
-        // pido el timpo de membresia y muestro si esta vigente o no y cuando se vence
+        // pido el tipo de membresia y muestro si esta vigente o no y cuando se vence
         private void VerEstado()
         {
             Console.Write("Ingrese tipo de membresia: ");

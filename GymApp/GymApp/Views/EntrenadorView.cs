@@ -10,10 +10,10 @@ namespace GymApp.Views
     {
         private EntrenadorController controller;
 
-        // arranco la view y preparo el controlador para empezar a manejar a los entrenadores y mostrar los menus
-        public EntrenadorView()
+        // arranco la view, recibo el repository y se lo paso al controlador
+        public EntrenadorView(IRepository<Entrenador> repo)
         {
-            controller = new EntrenadorController();
+            controller = new EntrenadorController(repo);
         }
 
         // asegura de que el usuario meta un numero entero si o si y no rompa nada
@@ -36,7 +36,6 @@ namespace GymApp.Views
             {
                 Console.Write(mensaje);
                 string texto = Console.ReadLine();
-                //si el texto no esta vacio y ademas todo los caracteres son letras o espacios, lo devuelvo, sino da error
                 if (!string.IsNullOrWhiteSpace(texto) && texto.All(c => char.IsLetter(c) || c == ' '))
                     return texto;
                 Console.WriteLine("Error: ingrese solo letras.");
@@ -112,7 +111,7 @@ namespace GymApp.Views
             }
         }
 
-        //  pido uno por uno los datos validados para crear al profe y mandarlo al controlador
+        // pido uno por uno los datos validados para crear al profe y mandarlo al controlador
         private void AgregarEntrenador()
         {
             int id = PedirEntero("ID: ");

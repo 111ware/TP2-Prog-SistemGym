@@ -9,11 +9,11 @@ namespace GymApp.Models
     // clase base para entrenadores y socios, implementa IBuscable (abtracta porque no se pueden crear personas, solo sus subclases)
     public abstract class Persona : IBuscable
     {
-        public int Id { get; private set; }
-        public string Name { get; private set; }
-        public string LastName { get; private set; }
-        public string Dni { get; private set; }
-        public string PhoneNumber { get; private set; }
+        public int Id { get; set; }
+        public string Name { get;  set; }
+        public string LastName { get;  set; }
+        public string Dni { get;  set; }
+        public string PhoneNumber { get;  set; }
 
         // constructor para crear una persona con toda su info
         public Persona(int id, string name, string lastName, string dni, string phoneNumber)

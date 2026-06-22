@@ -10,18 +10,22 @@ namespace GymApp.Controllers
     // maneja todas las rutinas de entrenamiento del gym
     public class RutinaController
     {
+        // en vez de una lista simple, ahora usamos el repository para leer y guardar
+        private readonly IRepository<Rutina> _repo;
         private List<Rutina> routines;
 
-        // preparo la lista para empezar a meter los planes de ejercicio
-        public RutinaController()
+        // inicializo el repository y cargo la lista desde el json
+        public RutinaController(IRepository<Rutina> repo)
         {
-            routines = new List<Rutina>();
+            _repo = repo;
+            routines = _repo.LeerTodos();
         }
 
-        // guardo una rutina nueva en el sistema y tiro aviso por consola
+        // guardo una rutina nueva en el sistema, persisto en el json y tiro aviso por consola
         public void Agregar(Rutina routine)
         {
             routines.Add(routine);
+            _repo.GuardarTodos(routines);
             Console.WriteLine("Rutina agregada correctamente.");
         }
 
@@ -49,20 +53,26 @@ namespace GymApp.Controllers
             return null;
         }
 
-        // busco la rutina por criterio y si existe le agrego el ejercicio nuevo
+        // busco la rutina y si existe le agrego el ejercicio nuevo, guardo en el json
         public void AgregarEjercicio(string criteria, Ejercicio ejercicio)
         {
             Rutina routine = Buscar(criteria);
             if (routine != null)
+            {
                 routine.AgregarEjercicio(ejercicio);
+                _repo.GuardarTodos(routines);
+            }
         }
 
-        // busco la rutina y le saco un ejercicio usando el criterio que me pasaron
+        // busco la rutina y le saco un ejercicio usando el criterio que me pasaron, guardo en el json
         public void EliminarEjercicio(string criteria, int exerciseId)
         {
             Rutina routine = Buscar(criteria);
             if (routine != null)
+            {
                 routine.EliminarEjercicio(exerciseId);
+                _repo.GuardarTodos(routines);
+            }
         }
 
         // muestro por pantalla la lista completa de ejercicios que tiene esa rutina
@@ -72,6 +82,5 @@ namespace GymApp.Controllers
             if (routine != null)
                 routine.ListarEjercicios();
         }
-
     }
 }

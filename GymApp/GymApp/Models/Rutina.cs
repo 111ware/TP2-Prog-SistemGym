@@ -9,9 +9,9 @@ namespace GymApp.Models
     // representa una rutina de entrenamiento que contiene ejercicios
     public class Rutina
     {
-        public int Id { get; private set; }
-        public string Name { get; private set; }
-        public string Objetive { get; private set; }
+        public int Id { get; set; }
+        public string Name { get;  set; }
+        public string Objetive { get;  set; }
 
         // lista de ejercicios que forman parte de esta rutina
         private List<Ejercicio> Exercises;

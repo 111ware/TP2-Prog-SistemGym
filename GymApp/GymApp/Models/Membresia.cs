@@ -9,11 +9,11 @@ namespace GymApp.Models
     // representa la membresia de un socio, implementa IPagable para gestionar pagos
     public class Membresia : IPagable
     {
-        public int Id { get; private set; }
-        public string Type { get; private set; }
-        public decimal Cost { get; private set; }
-        public DateTime StartDate { get; private set; }
-        public DateTime ExpirationDate { get; private set; }
+        public int Id { get;  set; }
+        public string Type { get;  set; }
+        public decimal Cost { get;  set; }
+        public DateTime StartDate { get;  set; }
+        public DateTime ExpirationDate { get;  set; }
 
         // guardo todos los pagos realizados para esta membresia
         private List<Pago> Payments;

@@ -1,25 +1,27 @@
 ﻿using GymApp.Views;
+using GymApp.Models;
 using System;
 
-using GymApp.Views;
-using System;
 namespace GymApp
 {
-   
     public class Program
     {
-        // MAIN.CS
         static void Main(string[] args)
         {
-            // inicializo las views de cada modulo para poder usarlas en el switch
-            EntrenadorView entrenadorView = new EntrenadorView();
-            SocioView socioView = new SocioView();
-            RutinaView rutinaView = new RutinaView();
-            MembresiaView membresiaView = new MembresiaView();
+            // creo los repositories, cada uno apunta a su propio archivo json
+            var repoEntrenador = new JsonRepository<Entrenador>("entrenadores.json");
+            var repoSocio = new JsonRepository<Socio>("socios.json");
+            var repoRutina = new JsonRepository<Rutina>("rutinas.json");
+            var repoMembresia = new JsonRepository<Membresia>("membresias.json");
 
-            bool exit = false; //condicion de bluce 
+            // inicializo las views pasandoles los repositories para que los inyecten en los controllers
+            EntrenadorView entrenadorView = new EntrenadorView(repoEntrenador);
+            SocioView socioView = new SocioView(repoSocio, repoMembresia);
+            RutinaView rutinaView = new RutinaView(repoRutina);
+            MembresiaView membresiaView = new MembresiaView(repoMembresia);
 
-            // bucle general para mantener el sistema abierto hasta que elijan salir
+            bool exit = false;
+
             while (!exit)
             {
                 Console.Clear();
@@ -36,25 +38,20 @@ namespace GymApp
                 switch (option)
                 {
                     case "1":
-                        // muestra el menu de la view de entrenadores
                         entrenadorView.MostrarMenu();
                         break;
                     case "2":
-                        // muestra el menu de la view de socio
                         socioView.MostrarMenu();
                         break;
                     case "3":
-                        // muestra el menu de la view de rutina
                         rutinaView.MostrarMenu();
                         break;
                     case "4":
-                        // muestra el menu de la view de membresia
                         membresiaView.MostrarMenu();
                         break;
                     case "0":
-                        // corta el bucle principal y cierra la aplicacion 
                         exit = true;
-                        Console.Clear(); //limpia la consola 
+                        Console.Clear();
                         Console.WriteLine("Hasta luego!");
                         Console.ReadKey();
                         break;
@@ -67,13 +64,3 @@ namespace GymApp
         }
     }
 }
-
-/*
-El sistema aplica el principio SRP(principio de responsabilidad única) ya que cada clase tiene una unica responsabilidad definida: 
-Pago gestiona comprobantes, Asistencia registra ingresos y cada Controller maneja únicamente su entidad correspondiente. 
-
-
-Tambien aplica DIP (inversion de dependencias) usando las interfaces IBuscable e IPagable. 
-Esto hace que los controladores dependan de ideas generales (abstracciones) y no de clases fijas. 
-Asi, si agrego cosas nuevas al gimnasio, el sistema se adapta solo sin tener que tocar el codigo que ya funciona y romper todo.
-*/

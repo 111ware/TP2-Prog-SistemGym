@@ -3,7 +3,6 @@ using GymApp.Models;
 using System;
 using System.Linq;
 
-
 namespace GymApp.Views
 {
     // maneja la view para gestionar las acciones y datos de los socios
@@ -11,10 +10,10 @@ namespace GymApp.Views
     {
         private SocioController controller;
 
-        // levanto la view y preparo la conexion con el controlador de socios
-        public SocioView()
+        // levanto la view, recibo los repositories y se los paso al controlador
+        public SocioView(IRepository<Socio> repoSocio, IRepository<Membresia> repoMembresia)
         {
-            controller = new SocioController();
+            controller = new SocioController(repoSocio);
         }
 
         // controlo que metan numeros enteros nada mas

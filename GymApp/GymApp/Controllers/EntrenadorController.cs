@@ -11,18 +11,22 @@ namespace GymApp.Controllers
     // controlo todo lo que es la lista y las acciones de los entrenadores
     public class EntrenadorController
     {
+        // en vez de una lista simple, ahora usamos el repository para leer y guardar
+        private readonly IRepository<Entrenador> _repo;
         private List<Entrenador> trainer;
 
-        // inicializo la lista para empezar a guardar los profes
-        public EntrenadorController()
+        // inicializo el repository y cargo la lista desde el json
+        public EntrenadorController(IRepository<Entrenador> repo)
         {
-            trainer = new List<Entrenador>();
+            _repo = repo;
+            trainer = _repo.LeerTodos();
         }
 
-        // meto un nuevo entrenador a la lista y aviso que salio todo bien
+        // meto un nuevo entrenador a la lista, guardo en el json y aviso que salio todo bien
         public void Agregar(Entrenador entrenador)
         {
             trainer.Add(entrenador);
+            _repo.GuardarTodos(trainer);
             Console.WriteLine("Entrenador agregado correctamente.");
         }
 

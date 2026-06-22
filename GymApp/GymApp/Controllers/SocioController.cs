@@ -5,24 +5,27 @@ using System.Text;
 using System.Threading.Tasks;
 using GymApp.Models;
 
-
 namespace GymApp.Controllers
 {
     // controla todo el ABM (dar de alta, baja o modificaciones) de los socios
     public class SocioController
     {
+        // en vez de una lista simple, ahora usamos el repository para leer y guardar
+        private readonly IRepository<Socio> _repo;
         private List<Socio> members;
 
-        // preparo la lista para ir guardando a la gente que se anota
-        public SocioController()
+        // inicializo el repository y cargo la lista desde el json
+        public SocioController(IRepository<Socio> repo)
         {
-            members = new List<Socio>();
+            _repo = repo;
+            members = _repo.LeerTodos();
         }
 
-        // meto un socio nuevo a la lista y aviso que salio todo bien
+        // meto un socio nuevo a la lista, guardo en el json y aviso que salio todo bien
         public void Agregar(Socio socio)
         {
             members.Add(socio);
+            _repo.GuardarTodos(members);
             Console.WriteLine("Socio agregado correctamente.");
         }
 
@@ -64,22 +67,26 @@ namespace GymApp.Controllers
             }
         }
 
-        // busco al socio en la lista y si esta le agrego el pago del mes
+        // busco al socio en la lista y si esta le agrego el pago del mes, guardo en el json
         public void RegistrarPago(string criterio, decimal monto)
         {
             Socio member = Buscar(criterio);
             if (member != null)
             {
                 member.RegistrarPago(monto);
+                _repo.GuardarTodos(members);
             }
         }
 
-        // registro la asistencia del socio buscando por criterio, si esta le agrega la asistencia del dia
+        // registro la asistencia del socio buscando por criterio, guardo en el json
         public void RegistrarAsistencia(string criteria)
         {
             Socio member = Buscar(criteria);
             if (member != null)
+            {
                 member.RegistrarAsistencia();
+                _repo.GuardarTodos(members);
+            }
         }
     }
 }

@@ -10,18 +10,22 @@ namespace GymApp.Controllers
     // controlo todos los planes y membresias del gym, guardo los distintos tipos de pases y gestiono los pagos y el estado de cada uno
     public class MembresiaController
     {
+        // en vez de una lista simple, ahora usamos el repository para leer y guardar
+        private readonly IRepository<Membresia> _repo;
         private List<Membresia> memberships;
 
-        // armo la lista para ir guardando los distintos tipos de membresia
-        public MembresiaController()
+        // inicializo el repository y cargo la lista desde el json
+        public MembresiaController(IRepository<Membresia> repo)
         {
-            memberships = new List<Membresia>();
+            _repo = repo;
+            memberships = _repo.LeerTodos();
         }
 
-        // guardo una membresia nueva y aviso por pantalla
+        // guardo una membresia nueva, persisto en el json y aviso por pantalla
         public void Agregar(Membresia membership)
         {
             memberships.Add(membership);
+            _repo.GuardarTodos(memberships);
             Console.WriteLine("Membresía agregada correctamente.");
         }
 
@@ -37,7 +41,7 @@ namespace GymApp.Controllers
                 Console.WriteLine($"[{m.Id}] {m.Type} - Costo: ${m.Cost} - Vigente: {(m.EstaVigente() ? "Sí" : "No")}");
         }
 
-        // busco una membresia por el nombre pasandolo a minusculas para que no falle por mayusculas o minusculas, si la encuentro la devuelvo sino aviso que no se encontro
+        // busco una membresia por el nombre pasandolo a minusculas para que no falle por mayusculas o minusculas
         public Membresia Buscar(string criteria)
         {
             foreach (Membresia m in memberships)
@@ -49,15 +53,18 @@ namespace GymApp.Controllers
             return null;
         }
 
-        // busco la membresia primero y si existe le mando el pago para que se registre, si no existe aviso que no se encontro la membresia
+        // busco la membresia y si existe le mando el pago para que se registre, guardo en el json
         public void RegistrarPago(string criteria, decimal amount)
         {
             Membresia membership = Buscar(criteria);
             if (membership != null)
+            {
                 membership.RegistrarPago(amount);
+                _repo.GuardarTodos(memberships);
+            }
         }
 
-        // me fijo el estado de la membresia de alguien y muestro cuando se vence
+        // me fijo el estado de la membresia y muestro cuando se vence
         public void VerEstado(string criteria)
         {
             Membresia membership = Buscar(criteria);
@@ -66,4 +73,3 @@ namespace GymApp.Controllers
         }
     }
 }
-

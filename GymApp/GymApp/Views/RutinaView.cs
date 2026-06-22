@@ -10,10 +10,10 @@ namespace GymApp.Views
     {
         private RutinaController controller;
 
-        // levanto la view y preparo la conexion con el controlador de rutinas
-        public RutinaView()
+        // levanto la view, recibo el repository y se lo paso al controlador
+        public RutinaView(IRepository<Rutina> repo)
         {
-            controller = new RutinaController();
+            controller = new RutinaController(repo);
         }
 
         // controlo que metan numeros enteros nada mas
@@ -42,7 +42,7 @@ namespace GymApp.Views
             }
         }
 
-        //  menu de la consola para gestionar los ejercicios y planes de entrenamiento
+        // menu de la consola para gestionar los ejercicios y planes de entrenamiento
         public void MostrarMenu()
         {
             bool exit = false;
@@ -125,7 +125,7 @@ namespace GymApp.Views
                 Console.WriteLine($"[{rutina.Id}] {rutina.Name} - Objetivo: {rutina.Objetive}");
         }
 
-        // pido la rutina a la cual se le agrega un ejercicoo y luego los datos del ejercicio para agregarlo a la misma
+        // pido la rutina a la cual se le agrega un ejercicio y luego los datos del ejercicio para agregarlo a la misma
         private void AgregarEjercicio()
         {
             Console.Write("Nombre de la rutina: ");
