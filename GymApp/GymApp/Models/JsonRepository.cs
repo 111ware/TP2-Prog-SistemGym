@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using GymApp.Models;
 
-namespace GymApp.Models  // cambialo a Models ya que lo pusiste en esa carpeta
+namespace GymApp.Models  
 {
     // clase generica que implementa IRepository, la T es el tipo de dato (Socio, Entrenador, etc)
     public class JsonRepository<T> : IRepository<T>
