@@ -3,7 +3,7 @@ using GymApp.Models;
 
 namespace GymApp.Models  
 {
-    // clase generica que implementa IRepository, la T es el tipo de dato (Socio, Entrenador, etc)
+    // clase que implementa IRepository, la T es el tipo de dato (Socio, Entrenador, etc)
     public class JsonRepository<T> : IRepository<T>
     {
         // guardo la ruta del archivo json donde se van a guardar los datos
@@ -26,9 +26,9 @@ namespace GymApp.Models
         // convierte la lista a json y la escribe en el archivo
         public void GuardarTodos(List<T> items)
         {
-            var opciones = new JsonSerializerOptions { WriteIndented = true }; // WriteIndented, no WriteIntendented
+            var opciones = new JsonSerializerOptions { WriteIndented = true };
             string json = JsonSerializer.Serialize(items, opciones);
-            File.WriteAllText(_rutaArchivo, json); // WriteAllText, no WritellText
+            File.WriteAllText(_rutaArchivo, json); 
         }
     }
 }

@@ -10,7 +10,7 @@ namespace GymApp.Controllers
     // controlo todos los planes y membresias del gym, guardo los distintos tipos de pases y gestiono los pagos y el estado de cada uno
     public class MembresiaController
     {
-        // en vez de una lista simple, ahora usamos el repository para leer y guardar
+        // en vez de una lista simple, ahora usa el repository para leer y guardar
         private readonly IRepository<Membresia> _repo;
         private List<Membresia> memberships;
 

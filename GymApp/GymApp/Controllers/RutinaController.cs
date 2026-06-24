@@ -10,7 +10,7 @@ namespace GymApp.Controllers
     // maneja todas las rutinas de entrenamiento del gym
     public class RutinaController
     {
-        // en vez de una lista simple, ahora usamos el repository para leer y guardar
+        // en vez de una lista simple, ahora usa el repository para leer y guardar
         private readonly IRepository<Rutina> _repo;
         private List<Rutina> routines;
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GymApp.Models
 {
-    public interface IRepository<T>
+    public interface IRepository<T> //Interfaz del repo con sus metodos
     {
         List<T> LeerTodos();
         void GuardarTodos(List<T> items);

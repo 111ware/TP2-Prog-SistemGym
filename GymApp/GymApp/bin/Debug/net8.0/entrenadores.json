@@ -7,5 +7,14 @@
     "LastName": "camelino",
     "Dni": "44534578",
     "PhoneNumber": "2235896936"
+  },
+  {
+    "Specialty": "asd",
+    "RegistrationNumber": "123",
+    "Id": 353,
+    "Name": "fran",
+    "LastName": "fran",
+    "Dni": "123123",
+    "PhoneNumber": "123123"
   }
 ]

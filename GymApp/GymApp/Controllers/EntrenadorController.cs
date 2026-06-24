@@ -11,7 +11,7 @@ namespace GymApp.Controllers
     // controlo todo lo que es la lista y las acciones de los entrenadores
     public class EntrenadorController
     {
-        // en vez de una lista simple, ahora usamos el repository para leer y guardar
+        // en vez de una lista simple, ahora usa el repository para leer y guardar
         private readonly IRepository<Entrenador> _repo;
         private List<Entrenador> trainer;
 

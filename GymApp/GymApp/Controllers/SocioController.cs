@@ -10,7 +10,7 @@ namespace GymApp.Controllers
     // controla todo el ABM (dar de alta, baja o modificaciones) de los socios
     public class SocioController
     {
-        // en vez de una lista simple, ahora usamos el repository para leer y guardar
+        // en vez de una lista simple, ahora usa el repository para leer y guardar
         private readonly IRepository<Socio> _repo;
         private List<Socio> members;
 
