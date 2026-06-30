@@ -1,97 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\jsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\jsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\ipagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\ipagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\jsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\jsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\umlgym.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\umlgym.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\controllers\\membresiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\controllers\\membresiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\controllers\\entrenadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\controllers\\entrenadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\views\\membresiaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\views\\membresiaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\membresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\membresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\entrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\entrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\views\\entrenadorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\views\\entrenadorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\controllers\\rutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\controllers\\rutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\views\\socioview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\views\\socioview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\views\\rutinaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\views\\rutinaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\controllers\\sociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\controllers\\sociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\controllers\\sociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\controllers\\rutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\controllers\\rutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\controllers\\membresiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\controllers\\membresiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\controllers\\entrenadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\controllers\\entrenadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\ipagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\ipagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\models\\ibuscable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\membresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\membresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\ientidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\ientidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\views\\entrenadorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\views\\entrenadorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\views\\socioview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\views\\socioview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\views\\rutinaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\views\\rutinaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\views\\membresiaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\views\\membresiaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\umlgym.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\umlgym.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\entrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\entrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\models\\ibuscable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\models\\ibuscable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\prog2\\programaciontp2\\gymapp\\gymapp\\gymapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|c:\\users\\rama\\desktop\\tp2-prog-sistemgym-main\\gymapp\\gymapp\\gymapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D65B0510-EE8E-C751-0A78-EC0D5E5D440F}|GymApp\\GymApp.csproj|solutionrelative:gymapp\\gymapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -102,101 +106,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\IRepository.cs",
+              "RelativeDocumentMoniker": "GymApp\\Models\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\IRepository.cs",
+              "RelativeToolTip": "GymApp\\Models\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T23:00:40.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "JsonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\JsonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\JsonRepository.cs",
               "RelativeDocumentMoniker": "GymApp\\Models\\JsonRepository.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\JsonRepository.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\JsonRepository.cs",
               "RelativeToolTip": "GymApp\\Models\\JsonRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T23:01:07.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\IRepository.cs",
-              "RelativeDocumentMoniker": "GymApp\\Models\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\IRepository.cs",
-              "RelativeToolTip": "GymApp\\Models\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MembresiaController.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Controllers\\MembresiaController.cs",
+              "RelativeDocumentMoniker": "GymApp\\Controllers\\MembresiaController.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Controllers\\MembresiaController.cs",
+              "RelativeToolTip": "GymApp\\Controllers\\MembresiaController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T23:00:40.503Z"
+              "WhenOpened": "2026-06-01T05:10:10.129Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UMLGym.png",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\UMLGym.png",
-              "RelativeDocumentMoniker": "GymApp\\UMLGym.png",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\UMLGym.png",
-              "RelativeToolTip": "GymApp\\UMLGym.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-06-22T22:59:21.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Rutina.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Rutina.cs",
-              "RelativeDocumentMoniker": "GymApp\\Models\\Rutina.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Rutina.cs",
-              "RelativeToolTip": "GymApp\\Models\\Rutina.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwDwAAAAAAAAAAAAAAA==",
+              "Title": "RutinaController.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Controllers\\RutinaController.cs",
+              "RelativeDocumentMoniker": "GymApp\\Controllers\\RutinaController.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Controllers\\RutinaController.cs",
+              "RelativeToolTip": "GymApp\\Controllers\\RutinaController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:00:34.64Z"
+              "WhenOpened": "2026-06-01T05:08:41.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Ejercicio.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Ejercicio.cs",
-              "RelativeDocumentMoniker": "GymApp\\Models\\Ejercicio.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Ejercicio.cs",
-              "RelativeToolTip": "GymApp\\Models\\Ejercicio.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wCIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SocioController.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Controllers\\SocioController.cs",
+              "RelativeDocumentMoniker": "GymApp\\Controllers\\SocioController.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Controllers\\SocioController.cs",
+              "RelativeToolTip": "GymApp\\Controllers\\SocioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:54:04.587Z"
+              "WhenOpened": "2026-06-01T04:58:16.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Membresia.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Membresia.cs",
-              "RelativeDocumentMoniker": "GymApp\\Models\\Membresia.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Membresia.cs",
-              "RelativeToolTip": "GymApp\\Models\\Membresia.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:30:45.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MembresiaView.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Views\\MembresiaView.cs",
-              "RelativeDocumentMoniker": "GymApp\\Views\\MembresiaView.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Views\\MembresiaView.cs",
-              "RelativeToolTip": "GymApp\\Views\\MembresiaView.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAuwKQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:31:27.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Program.cs",
               "RelativeDocumentMoniker": "GymApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Program.cs",
               "RelativeToolTip": "GymApp\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T03:36:05.991Z",
               "EditorCaption": ""
@@ -205,33 +188,21 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "EntrenadorController.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Controllers\\EntrenadorController.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Controllers\\EntrenadorController.cs",
               "RelativeDocumentMoniker": "GymApp\\Controllers\\EntrenadorController.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Controllers\\EntrenadorController.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Controllers\\EntrenadorController.cs",
               "RelativeToolTip": "GymApp\\Controllers\\EntrenadorController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T04:49:12.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MembresiaController.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Controllers\\MembresiaController.cs",
-              "RelativeDocumentMoniker": "GymApp\\Controllers\\MembresiaController.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Controllers\\MembresiaController.cs",
-              "RelativeToolTip": "GymApp\\Controllers\\MembresiaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:10:10.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "IPagable.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\IPagable.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\IPagable.cs",
               "RelativeDocumentMoniker": "GymApp\\Models\\IPagable.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\IPagable.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\IPagable.cs",
               "RelativeToolTip": "GymApp\\Models\\IPagable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -239,11 +210,154 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Asistencia.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Asistencia.cs",
+              "RelativeDocumentMoniker": "GymApp\\Models\\Asistencia.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Asistencia.cs",
+              "RelativeToolTip": "GymApp\\Models\\Asistencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T04:36:59.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Pago.cs",
+              "RelativeDocumentMoniker": "GymApp\\Models\\Pago.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Pago.cs",
+              "RelativeToolTip": "GymApp\\Models\\Pago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T04:26:31.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ejercicio.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Ejercicio.cs",
+              "RelativeDocumentMoniker": "GymApp\\Models\\Ejercicio.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Ejercicio.cs",
+              "RelativeToolTip": "GymApp\\Models\\Ejercicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T03:54:04.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rutina.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Rutina.cs",
+              "RelativeDocumentMoniker": "GymApp\\Models\\Rutina.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Rutina.cs",
+              "RelativeToolTip": "GymApp\\Models\\Rutina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T04:00:34.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Membresia.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Membresia.cs",
+              "RelativeDocumentMoniker": "GymApp\\Models\\Membresia.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Membresia.cs",
+              "RelativeToolTip": "GymApp\\Models\\Membresia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T04:30:45.796Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "GymApp\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Persona.cs",
+              "RelativeToolTip": "GymApp\\Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T03:44:26.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEntidad.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\IEntidad.cs",
+              "RelativeDocumentMoniker": "GymApp\\Models\\IEntidad.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\IEntidad.cs",
+              "RelativeToolTip": "GymApp\\Models\\IEntidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T13:06:15.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EntrenadorView.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Views\\EntrenadorView.cs",
+              "RelativeDocumentMoniker": "GymApp\\Views\\EntrenadorView.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Views\\EntrenadorView.cs",
+              "RelativeToolTip": "GymApp\\Views\\EntrenadorView.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAuwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T05:11:38.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SocioView.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Views\\SocioView.cs",
+              "RelativeDocumentMoniker": "GymApp\\Views\\SocioView.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Views\\SocioView.cs",
+              "RelativeToolTip": "GymApp\\Views\\SocioView.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAqwM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T05:27:38.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RutinaView.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Views\\RutinaView.cs",
+              "RelativeDocumentMoniker": "GymApp\\Views\\RutinaView.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Views\\RutinaView.cs",
+              "RelativeToolTip": "GymApp\\Views\\RutinaView.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAqwJ8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T05:30:21.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MembresiaView.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Views\\MembresiaView.cs",
+              "RelativeDocumentMoniker": "GymApp\\Views\\MembresiaView.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Views\\MembresiaView.cs",
+              "RelativeToolTip": "GymApp\\Views\\MembresiaView.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAqwKYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T05:31:27.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UMLGym.png",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\UMLGym.png",
+              "RelativeDocumentMoniker": "GymApp\\UMLGym.png",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\UMLGym.png",
+              "RelativeToolTip": "GymApp\\UMLGym.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-06-22T22:59:21.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Socio.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Socio.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Socio.cs",
               "RelativeDocumentMoniker": "GymApp\\Models\\Socio.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Socio.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Socio.cs",
               "RelativeToolTip": "GymApp\\Models\\Socio.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAA0wD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -251,35 +365,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Persona.cs",
-              "RelativeDocumentMoniker": "GymApp\\Models\\Persona.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Persona.cs",
-              "RelativeToolTip": "GymApp\\Models\\Persona.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:44:26.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EntrenadorView.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Views\\EntrenadorView.cs",
-              "RelativeDocumentMoniker": "GymApp\\Views\\EntrenadorView.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Views\\EntrenadorView.cs",
-              "RelativeToolTip": "GymApp\\Views\\EntrenadorView.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAwJIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:11:38.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Entrenador.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Entrenador.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Entrenador.cs",
               "RelativeDocumentMoniker": "GymApp\\Models\\Entrenador.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Entrenador.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\Entrenador.cs",
               "RelativeToolTip": "GymApp\\Models\\Entrenador.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAcwCcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -287,83 +377,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Asistencia.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Asistencia.cs",
-              "RelativeDocumentMoniker": "GymApp\\Models\\Asistencia.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Asistencia.cs",
-              "RelativeToolTip": "GymApp\\Models\\Asistencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:36:59.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RutinaController.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Controllers\\RutinaController.cs",
-              "RelativeDocumentMoniker": "GymApp\\Controllers\\RutinaController.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Controllers\\RutinaController.cs",
-              "RelativeToolTip": "GymApp\\Controllers\\RutinaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:08:41.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SocioView.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Views\\SocioView.cs",
-              "RelativeDocumentMoniker": "GymApp\\Views\\SocioView.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Views\\SocioView.cs",
-              "RelativeToolTip": "GymApp\\Views\\SocioView.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAA3wM8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:27:38.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RutinaView.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Views\\RutinaView.cs",
-              "RelativeDocumentMoniker": "GymApp\\Views\\RutinaView.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Views\\RutinaView.cs",
-              "RelativeToolTip": "GymApp\\Views\\RutinaView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:30:21.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SocioController.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Controllers\\SocioController.cs",
-              "RelativeDocumentMoniker": "GymApp\\Controllers\\SocioController.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Controllers\\SocioController.cs",
-              "RelativeToolTip": "GymApp\\Controllers\\SocioController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAkwE0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:58:16.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Pago.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Pago.cs",
-              "RelativeDocumentMoniker": "GymApp\\Models\\Pago.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\Pago.cs",
-              "RelativeToolTip": "GymApp\\Models\\Pago.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:26:31.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IBuscable.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\IBuscable.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\IBuscable.cs",
               "RelativeDocumentMoniker": "GymApp\\Models\\IBuscable.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\Models\\IBuscable.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\Models\\IBuscable.cs",
               "RelativeToolTip": "GymApp\\Models\\IBuscable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -371,11 +389,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "GymApp.csproj",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\GymApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\GymApp.csproj",
               "RelativeDocumentMoniker": "GymApp\\GymApp.csproj",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\prog2\\ProgramacionTP2\\GymApp\\GymApp\\GymApp.csproj",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\TP2-Prog-SistemGym-main\\GymApp\\GymApp\\GymApp.csproj",
               "RelativeToolTip": "GymApp\\GymApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

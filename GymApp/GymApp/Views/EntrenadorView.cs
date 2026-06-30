@@ -10,10 +10,10 @@ namespace GymApp.Views
     {
         private EntrenadorController controller;
 
-        // arranco la view, recibo el repository y se lo paso al controlador
-        public EntrenadorView(IRepository<Entrenador> repo)
+        // arranco la view, recibo el controller directamente en vez del repository
+        public EntrenadorView(EntrenadorController controller)
         {
-            controller = new EntrenadorController(repo);
+            this.controller = controller;
         }
 
         // asegura de que el usuario meta un numero entero si o si y no rompa nada

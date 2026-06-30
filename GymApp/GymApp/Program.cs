@@ -1,4 +1,4 @@
-﻿using GymApp.Views;
+﻿using GymApp.Controllers;
 using GymApp.Models;
 using System;
 
@@ -14,11 +14,11 @@ namespace GymApp
             var repoRutina = new JsonRepository<Rutina>("rutinas.json");
             var repoMembresia = new JsonRepository<Membresia>("membresias.json");
 
-            // inicializo las views pasandoles los repositories para que los inyecten en los controllers
-            EntrenadorView entrenadorView = new EntrenadorView(repoEntrenador);
-            SocioView socioView = new SocioView(repoSocio, repoMembresia);
-            RutinaView rutinaView = new RutinaView(repoRutina);
-            MembresiaView membresiaView = new MembresiaView(repoMembresia);
+            // creo los controllers, cada uno recibe su repository
+            EntrenadorController entrenadorController = new EntrenadorController(repoEntrenador);
+            SocioController socioController = new SocioController(repoSocio);
+            RutinaController rutinaController = new RutinaController(repoRutina);
+            MembresiaController membresiaController = new MembresiaController(repoMembresia);
 
             bool exit = false;
 
@@ -38,16 +38,17 @@ namespace GymApp
                 switch (option)
                 {
                     case "1":
-                        entrenadorView.MostrarMenu();
+                        // el controller se encarga de llamar a su view
+                        entrenadorController.MostrarMenu();
                         break;
                     case "2":
-                        socioView.MostrarMenu();
+                        socioController.MostrarMenu();
                         break;
                     case "3":
-                        rutinaView.MostrarMenu();
+                        rutinaController.MostrarMenu();
                         break;
                     case "4":
-                        membresiaView.MostrarMenu();
+                        membresiaController.MostrarMenu();
                         break;
                     case "0":
                         exit = true;

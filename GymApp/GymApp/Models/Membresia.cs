@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GymApp.Models
 {
     // representa la membresia de un socio, implementa IPagable para gestionar pagos
-    public class Membresia : IPagable
+    public class Membresia : IPagable, IEntidad
     {
         public int Id { get;  set; }
         public string Type { get;  set; }

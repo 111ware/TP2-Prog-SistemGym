@@ -4,49 +4,59 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GymApp.Models;
+using GymApp.Views;
 
 namespace GymApp.Controllers
 {
     // controla todo el ABM (dar de alta, baja o modificaciones) de los socios
     public class SocioController
     {
-        // en vez de una lista simple, ahora usa el repository para leer y guardar
+        // el repository es el unico que maneja los datos, ya no necesitamos la lista en el controller
         private readonly IRepository<Socio> _repo;
-        private List<Socio> members;
 
-        // inicializo el repository y cargo la lista desde el json
+        // la view es creada por el controller, no por el program
+        private readonly SocioView _view;
+
+        // inicializo el repository y creo la view pasandome a mi mismo
         public SocioController(IRepository<Socio> repo)
         {
             _repo = repo;
-            members = _repo.LeerTodos();
+            _view = new SocioView(this);
         }
 
-        // meto un socio nuevo a la lista, guardo en el json y aviso que salio todo bien
+        // el controller delega la muestra del menu a su view
+        public void MostrarMenu()
+        {
+            _view.MostrarMenu();
+        }
+
+        // le pido al repository que agregue el socio y persista directamente
         public void Agregar(Socio socio)
         {
-            members.Add(socio);
-            _repo.GuardarTodos(members);
+            _repo.Agregar(socio);
             Console.WriteLine("Socio agregado correctamente.");
         }
 
-        // recorro y muestro la info de todos los socios, si no hay nadie tiro un aviso
+        // le pido al repository la lista completa y la recorro para mostrarla
         public void Listar()
         {
-            if (members.Count == 0)
+            List<Socio> lista = _repo.LeerTodos();
+            if (lista.Count == 0)
             {
                 Console.WriteLine("No hay socios registrados.");
                 return;
             }
-            foreach (Socio socio in members)
+            foreach (Socio socio in lista)
             {
                 Console.WriteLine(socio.MostrarDatos());
             }
         }
 
-        // busco al socio usando el criterio pasandolo a minusculas
+        // le pido al repository la lista y busco por criterio pasandolo a minusculas
         public Socio Buscar(string criterio)
         {
-            foreach (Socio s in members)
+            List<Socio> lista = _repo.LeerTodos();
+            foreach (Socio s in lista)
             {
                 if (s.ObtenerCriterioBusqueda().ToLower().Contains(criterio.ToLower()))
                 {
@@ -57,7 +67,7 @@ namespace GymApp.Controllers
             return null;
         }
 
-        // encuentro al socio por criterio y pido ver el estado de su pase
+        // encuentro al socio por criterio y muestro el estado de su membresia
         public void VerMembresia(string criterio)
         {
             Socio member = Buscar(criterio);
@@ -67,25 +77,25 @@ namespace GymApp.Controllers
             }
         }
 
-        // busco al socio en la lista y si esta le agrego el pago del mes, guardo en el json
+        // busco el socio, registro el pago y le pido al repository que actualice
         public void RegistrarPago(string criterio, decimal monto)
         {
             Socio member = Buscar(criterio);
             if (member != null)
             {
                 member.RegistrarPago(monto);
-                _repo.GuardarTodos(members);
+                _repo.Actualizar(member);
             }
         }
 
-        // registro la asistencia del socio buscando por criterio, guardo en el json
+        // busco el socio, registro la asistencia y le pido al repository que actualice
         public void RegistrarAsistencia(string criteria)
         {
             Socio member = Buscar(criteria);
             if (member != null)
             {
                 member.RegistrarAsistencia();
-                _repo.GuardarTodos(members);
+                _repo.Actualizar(member);
             }
         }
     }

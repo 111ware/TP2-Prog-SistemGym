@@ -10,10 +10,10 @@ namespace GymApp.Views
     {
         private MembresiaController controller;
 
-        // levanto la view, recibo el repository y se lo paso al controlador
-        public MembresiaView(IRepository<Membresia> repo)
+        // levanto la view, recibo el controller directamente en vez del repository
+        public MembresiaView(MembresiaController controller)
         {
-            controller = new MembresiaController(repo);
+            this.controller = controller;
         }
 
         // control para que lo que pongan sea un numero entero para evitar romper el programa

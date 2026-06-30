@@ -10,10 +10,10 @@ namespace GymApp.Views
     {
         private SocioController controller;
 
-        // levanto la view, recibo los repositories y se los paso al controlador
-        public SocioView(IRepository<Socio> repoSocio, IRepository<Membresia> repoMembresia)
+        // levanto la view, recibo el controller directamente en vez del repository
+        public SocioView(SocioController controller)
         {
-            controller = new SocioController(repoSocio);
+            this.controller = controller;
         }
 
         // controlo que metan numeros enteros nada mas

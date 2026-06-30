@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GymApp.Models
 {
     // representa un pago individual realizado por un socio
-    public class Pago
+    public class Pago : IEntidad
     {
         public int Id { get;  set; }
         public DateTime Date { get;  set; }

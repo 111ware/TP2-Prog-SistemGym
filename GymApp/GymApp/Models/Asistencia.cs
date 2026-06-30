@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GymApp.Models
 {
     // guarda el registro de cuando un socio entra al gimnasio
-    public class Asistencia
+    public class Asistencia : IEntidad
     {
         public int Id { get;  set; }
         public DateTime Date { get;  set; }

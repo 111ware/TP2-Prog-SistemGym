@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GymApp.Models
 {
     // representa un ejercicio individual dentro de una rutina
-    public class Ejercicio
+    public class Ejercicio : IEntidad
     {
         public int Id { get;  set; }
         public string Name { get;  set; }

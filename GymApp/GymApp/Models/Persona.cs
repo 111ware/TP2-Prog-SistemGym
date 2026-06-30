@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GymApp.Models
 {
     // clase base para entrenadores y socios, implementa IBuscable (abtracta porque no se pueden crear personas, solo sus subclases)
-    public abstract class Persona : IBuscable
+    public abstract class Persona : IBuscable, IEntidad
     {
         public int Id { get; set; }
         public string Name { get;  set; }

@@ -1,4 +1,5 @@
 ﻿using GymApp.Models;
+using GymApp.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,41 +11,50 @@ namespace GymApp.Controllers
     // controlo todos los planes y membresias del gym, guardo los distintos tipos de pases y gestiono los pagos y el estado de cada uno
     public class MembresiaController
     {
-        // en vez de una lista simple, ahora usa el repository para leer y guardar
+        // el repository es el unico que maneja los datos, ya no necesitamos la lista en el controller
         private readonly IRepository<Membresia> _repo;
-        private List<Membresia> memberships;
 
-        // inicializo el repository y cargo la lista desde el json
+        // la view es creada por el controller, no por el program
+        private readonly MembresiaView _view;
+
+        // inicializo el repository y creo la view pasandome a mi mismo
         public MembresiaController(IRepository<Membresia> repo)
         {
             _repo = repo;
-            memberships = _repo.LeerTodos();
+            _view = new MembresiaView(this);
         }
 
-        // guardo una membresia nueva, persisto en el json y aviso por pantalla
+        // el controller delega la muestra del menu a su view
+        public void MostrarMenu()
+        {
+            _view.MostrarMenu();
+        }
+
+        // le pido al repository que agregue la membresia y persista directamente
         public void Agregar(Membresia membership)
         {
-            memberships.Add(membership);
-            _repo.GuardarTodos(memberships);
+            _repo.Agregar(membership);
             Console.WriteLine("Membresía agregada correctamente.");
         }
 
-        // muestro todas las membresias que hay con el precio y si estan activos o no
+        // le pido al repository la lista completa y la recorro para mostrarla
         public void Listar()
         {
-            if (memberships.Count == 0)
+            List<Membresia> lista = _repo.LeerTodos();
+            if (lista.Count == 0)
             {
                 Console.WriteLine("No hay membresías registradas.");
                 return;
             }
-            foreach (Membresia m in memberships)
+            foreach (Membresia m in lista)
                 Console.WriteLine($"[{m.Id}] {m.Type} - Costo: ${m.Cost} - Vigente: {(m.EstaVigente() ? "Sí" : "No")}");
         }
 
-        // busco una membresia por el nombre pasandolo a minusculas para que no falle por mayusculas o minusculas
+        // le pido al repository la lista y busco por tipo pasandolo a minusculas
         public Membresia Buscar(string criteria)
         {
-            foreach (Membresia m in memberships)
+            List<Membresia> lista = _repo.LeerTodos();
+            foreach (Membresia m in lista)
             {
                 if (m.Type.ToLower().Contains(criteria.ToLower()))
                     return m;
@@ -53,14 +63,14 @@ namespace GymApp.Controllers
             return null;
         }
 
-        // busco la membresia y si existe le mando el pago para que se registre, guardo en el json
+        // busco la membresia, registro el pago y le pido al repository que actualice
         public void RegistrarPago(string criteria, decimal amount)
         {
             Membresia membership = Buscar(criteria);
             if (membership != null)
             {
                 membership.RegistrarPago(amount);
-                _repo.GuardarTodos(memberships);
+                _repo.Actualizar(membership);
             }
         }
 

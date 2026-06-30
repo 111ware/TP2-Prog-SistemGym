@@ -5,49 +5,59 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using GymApp.Models;
+using GymApp.Views;
 
 namespace GymApp.Controllers
 {
     // controlo todo lo que es la lista y las acciones de los entrenadores
     public class EntrenadorController
     {
-        // en vez de una lista simple, ahora usa el repository para leer y guardar
+        // el repository es el unico que maneja los datos, ya no necesitamos la lista en el controller
         private readonly IRepository<Entrenador> _repo;
-        private List<Entrenador> trainer;
 
-        // inicializo el repository y cargo la lista desde el json
+        // la view es creada por el controller, no por el program
+        private readonly EntrenadorView _view;
+
+        // inicializo el repository y creo la view pasandome a mi mismo
         public EntrenadorController(IRepository<Entrenador> repo)
         {
             _repo = repo;
-            trainer = _repo.LeerTodos();
+            _view = new EntrenadorView(this);
         }
 
-        // meto un nuevo entrenador a la lista, guardo en el json y aviso que salio todo bien
+        // el controller delega la muestra del menu a su view
+        public void MostrarMenu()
+        {
+            _view.MostrarMenu();
+        }
+
+        // le pido al repository que agregue el entrenador y persista directamente
         public void Agregar(Entrenador entrenador)
         {
-            trainer.Add(entrenador);
-            _repo.GuardarTodos(trainer);
+            _repo.Agregar(entrenador);
             Console.WriteLine("Entrenador agregado correctamente.");
         }
 
-        // recorro la lista y muestro los profes, si esta vacia doy aviso de que no hay nada registrado
+        // le pido al repository la lista completa y la recorro para mostrarla
         public void Listar()
         {
-            if (trainer.Count == 0)
+            List<Entrenador> lista = _repo.LeerTodos();
+            if (lista.Count == 0)
             {
                 Console.WriteLine("No hay entrenadores registrados.");
                 return;
             }
-            foreach (Entrenador e in trainer)
+            foreach (Entrenador e in lista)
             {
                 Console.WriteLine(e.MostrarDatos());
             }
         }
 
-        // busco un entrenador por texto comparando todo en minusculas para que no falle por las mayusculas
+        // le pido al repository la lista y busco por criterio comparando en minusculas
         public Entrenador Buscar(string criterio)
         {
-            foreach (Entrenador e in trainer)
+            List<Entrenador> lista = _repo.LeerTodos();
+            foreach (Entrenador e in lista)
             {
                 if (e.ObtenerCriterioBusqueda().ToLower().Contains(criterio.ToLower()))
                 {

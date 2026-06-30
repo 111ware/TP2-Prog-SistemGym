@@ -10,10 +10,10 @@ namespace GymApp.Views
     {
         private RutinaController controller;
 
-        // levanto la view, recibo el repository y se lo paso al controlador
-        public RutinaView(IRepository<Rutina> repo)
+        // levanto la view, recibo el controller directamente en vez del repository
+        public RutinaView(RutinaController controller)
         {
-            controller = new RutinaController(repo);
+            this.controller = controller;
         }
 
         // controlo que metan numeros enteros nada mas

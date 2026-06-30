@@ -1,14 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GymApp.Models
+﻿namespace GymApp.Models
 {
-    public interface IRepository<T> //Interfaz del repo con sus metodos
+    
+    public interface IRepository<T> where T : IEntidad
     {
+        
         List<T> LeerTodos();
+
+        
         void GuardarTodos(List<T> items);
+
+        
+        void Agregar(T item);
+
+        
+        T BuscarPorId(int id);
+
+        
+        void Actualizar(T item);
+
+        
+        void Eliminar(int id);
     }
 }
